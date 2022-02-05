@@ -1,0 +1,64 @@
+@import 'fonts';
+
+html{
+    box-sizing: border-box;
+    // overflow-x: hidden;
+}
+
+button{
+  cursor: pointer;
+}
+  
+ 
+body{
+  @extend %avenir;
+}
+  .link{
+    display: inline-block;
+    @extend %avenirRegular;
+    padding: 20px 65px;
+    background: #358DA9;
+    border: 2px solid #358DA9;
+    border-radius: 8px;
+    margin-top: 40px;
+    cursor: pointer;
+    transition: all 0.3s;
+    a{
+      font-size: 18px;
+      line-height: 140%;
+      letter-spacing: 1px;
+    }
+    &:hover{
+      color: #358DA9;
+      background: inherit;
+      border: 2px solid #358DA9;
+    }
+  }
+  .container{
+    width: 1109px;
+    margin: auto;
+  }
+  *,
+  *::before,
+  *::after{
+  box-sizing: inherit;
+  }
+  p,
+  ul,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6{
+    padding: 0;
+    margin: 0;  
+  }
+  
+  a{
+      text-decoration: none;
+      color: inherit;
+  }
+  ul{
+      list-style: none;
+  }

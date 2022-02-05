@@ -1,0 +1,36 @@
+@font-face{
+  font-family: 'Avenir';
+  font-weight: 300;
+  src: url(../fonts/AveriaSerifLibre-Light.woff2) format('woff2'),
+       url(../fonts/AveriaSerifLibre-Light.woff) format('woff');
+  font-display: swap;
+
+}
+%avenir{
+  font-family: "Avenir";
+  font-weight: 300;
+}
+
+@font-face{
+  font-family: 'Avenir';
+  font-weight: 900;
+  src: url(../fonts/AvenirHeavy.woff2) format('woff2'),
+       url(../fonts/AvenirHeavy.woff) format('woff');
+  font-display: swap;
+
+}
+%avenirRegular{
+  font-family: "Avenir";
+  font-weight: 900;
+}
+@font-face{
+  font-family: 'Futura-Bold';
+  font-weight: 700;
+  src: url(../fonts/FuturaBoldfont.woff2) format('woff2'),
+       url(../fonts/FuturaBoldfont.woff) format('woff');
+  font-display: swap;
+}
+%futura{
+  font-family: "Futura-Bold";
+  font-weight: 700;
+}
